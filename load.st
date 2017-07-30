@@ -8,5 +8,7 @@ Metacello new
 Metacello new
   baseline: 'Ring2';
   repository: 'github://pavel-krivanek/Ring2/src';
-  load: #all
+  load: #all.
+  
+GTPlayground openContents: 'playground.st' sFileReference readStream contents.
 
