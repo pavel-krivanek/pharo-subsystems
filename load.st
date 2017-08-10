@@ -1,6 +1,11 @@
 "Iceberg enableMetacelloIntegration: true."
 
 Metacello new
+  baseline: 'PharoBootstrapProcess';
+  repository: 'filetree://pharo-core/bootstrap/src';
+  load.
+
+Metacello new
   baseline: 'Calypso';
   repository: 'github://dionisiydk/Calypso';
   load.
@@ -10,5 +15,4 @@ Metacello new
   repository: 'github://pavel-krivanek/Ring2/src';
   load: #all.
   
-GTPlayground openContents: 'playground.st' asFileReference readStream contents.
-
+'scripts' asFileReference children do: [ :script | (GTPlayground openContents: script readStream contents) window title: script basename. ]
