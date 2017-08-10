@@ -6,5 +6,5 @@ wget https://github.com/guillep/PharoBootstrap/releases/download/v1.1.1/bootstra
 
 unzip bootstrapImage.zip
 
-./pharo-ui Pharo.image st load.st --save --quit
+./pharo Pharo.image st load.st --save --quit
 

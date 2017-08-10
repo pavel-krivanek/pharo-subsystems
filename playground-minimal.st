@@ -1,5 +1,5 @@
 repository := MCFileTreeRepository new
-	directory: './src' asFileReference;
+	directory: './src-minimal' asFileReference;
 	yourself.
 	
 environment := repository asRing2Environment.		

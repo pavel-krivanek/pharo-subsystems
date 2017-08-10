@@ -1,4 +1,4 @@
-Iceberg enableMetacelloIntegration: true.
+"Iceberg enableMetacelloIntegration: true."
 
 Metacello new
   baseline: 'Calypso';
@@ -10,5 +10,5 @@ Metacello new
   repository: 'github://pavel-krivanek/Ring2/src';
   load: #all.
   
-GTPlayground openContents: 'playground.st' sFileReference readStream contents.
+GTPlayground openContents: 'playground.st' asFileReference readStream contents.
 
