@@ -100,7 +100,7 @@ Message
 Point
 GlobalVariable
 ClassVariable
-OpalEncoderForSistaV1
+EncoderForSistaV1
 WeakIdentityKeyDictionary
 WeakArray
 InstanceVariableSlot
@@ -114,9 +114,10 @@ Link
 ProcessList
 BlockClosure
 ProcessorScheduler
-OpalEncoderForV3PlusClosures
+EncoderForV3PlusClosures
 IdentitySet
-OpalBytecodeEncoder
-OpalEncoder
-OpalEncoderForV3
+BytecodeEncoder
+Encoder
+EncoderForV3
 PharoBootstrapInitialization
+FullBlockClosure
